@@ -3,11 +3,17 @@
 import { goudy, manrope } from "@/utils/fonts";
 import { motion } from "framer-motion";
 import { BsArrowUpRight } from "react-icons/bs";
-import TypeWriterEffect from "react-typewriter-effect";
+// import TypeWriterEffect from "react-typewriter-effect";
 import classes from "./cover.module.css";
 import Navbar from "./navbar/navbar";
+import dynamic from "next/dynamic";
 
 export default function Cover() {
+  // Disable server-side rendering for TypeWriterEffect library
+  const TypeWriterEffect = dynamic(() => import("react-typewriter-effect"), {
+    ssr: false,
+  });
+
   return (
     <div className={classes.cover}>
       <Navbar />
