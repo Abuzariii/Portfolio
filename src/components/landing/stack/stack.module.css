@@ -1,0 +1,103 @@
+.stack {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 80%;
+  height: 90vh;
+  border-bottom: 2px solid rgb(196, 136, 9);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left {
+  width: 30rem;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.program {
+  max-height: 350px;
+}
+.right {
+  width: 30rem;
+  height: 45vh;
+  color: white;
+}
+.right > * {
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+.right p {
+  color: rgb(218, 176, 85);
+}
+.right > button {
+  padding: 10px 35px;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(223, 154, 5),
+    rgb(163, 129, 54)
+  );
+  color: black;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.right > button > * {
+  font-weight: 600;
+  margin: 0px 5px;
+}
+.arrows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  width: 30px;
+  height: 80px;
+  border: 2px solid rgb(196, 136, 9);
+  color: rgb(196, 136, 9);
+  bottom: 0%;
+  left: 100%;
+  box-shadow: 3px 0px 5px 0px rgba(255, 255, 255, 0.2);
+}
+.arrows hr {
+  width: 50%;
+  border-color: rgb(132, 107, 53);
+}
+
+/* 
+  Media Queries
+*/
+@media (max-width: 900px) {
+  .main {
+    border-bottom: none;
+    border-left: 2px solid rgb(196, 136, 9);
+    width: 90%;
+    flex-direction: column;
+  }
+  .program {
+    max-width: 90%;
+  }
+  .main > div {
+    max-width: 90%;
+  }
+  .arrows {
+    bottom: 25%;
+    left: 80%;
+  }
+}
+
+@media (max-width: 380px) {
+  .stack {
+    height: 140vh;
+  }
+}

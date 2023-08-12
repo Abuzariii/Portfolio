@@ -2,6 +2,13 @@ import { gruppo } from "@/utils/fonts";
 import classes from "./menu.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import {
+  BiLogoGithub,
+  BiLogoLinkedin,
+  BiLogoMedium,
+  BiLogoInstagram,
+} from "react-icons/bi";
+import { SiHashnode } from "react-icons/si";
 
 export default function Menu({ isMenuOpen }) {
   const customEase = (t) => {
@@ -76,6 +83,46 @@ export default function Menu({ isMenuOpen }) {
           Blog
         </Link>
       </motion.h1>
+      <div className={classes.socials}>
+        <Link
+          className="link"
+          href={"https://www.linkedin.com/in/abuzariii"}
+          target="_blank"
+        >
+          <BiLogoLinkedin size={30} />
+        </Link>
+
+        <Link
+          className="link"
+          href={"https://medium.com/@Abuzariii"}
+          target="_blank"
+        >
+          <BiLogoMedium size={30} />
+        </Link>
+
+        <Link
+          className="link"
+          href={"https://github.com/Abuzariii"}
+          target="_blank"
+        >
+          <BiLogoGithub size={30} />
+        </Link>
+
+        <Link
+          className="link"
+          href={"https://abuzar.hashnode.dev/"}
+          target="_blank"
+        >
+          <SiHashnode size={30} />
+        </Link>
+        <Link
+          className="link"
+          href={"https://www.instagram.com/abuzariii"}
+          target="_blank"
+        >
+          <BiLogoInstagram size={30} />
+        </Link>
+      </div>
     </motion.div>
   );
 }

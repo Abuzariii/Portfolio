@@ -3,7 +3,6 @@
 import { goudy, manrope } from "@/utils/fonts";
 import { motion } from "framer-motion";
 import { BsArrowUpRight } from "react-icons/bs";
-// import TypeWriterEffect from "react-typewriter-effect";
 import classes from "./cover.module.css";
 import Navbar from "./navbar/navbar";
 import dynamic from "next/dynamic";
@@ -23,7 +22,7 @@ export default function Cover() {
             className={goudy.className}
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeIn", delay: 0.5 }}
+            transition={{ duration: 0.6, ease: "easeIn" }}
           >
             Software Engineer
           </motion.h1>
@@ -51,8 +50,8 @@ export default function Cover() {
           <motion.button
             className={manrope.className}
             initial={{ scale: 1 }}
-            transition={{ duration: 0.1, ease: "easeIn" }}
-            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.1, ease: "easeOut" }}
+            whileHover={{ scale: 1.05 }}
           >
             DOWNLOAD RESUME
             <BsArrowUpRight />
@@ -62,7 +61,7 @@ export default function Cover() {
           className={classes.right}
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeIn", delay: 0.5 }}
+          transition={{ duration: 0.6, ease: "easeIn" }}
         >
           <h1 className={manrope.className}>MUHAMMAD ABUZAR</h1>
         </motion.div>
