@@ -1,4 +1,4 @@
-.navbar * {
+.navbar > * {
   color: rgb(219, 171, 11);
 }
 
@@ -13,6 +13,9 @@
   justify-content: space-around;
   align-items: center;
 }
+.navbar p > * {
+  color: rgb(219, 171, 11);
+}
 .navbar p > *:hover {
   color: white;
 }
@@ -21,6 +24,7 @@
 }
 .ham {
   display: none;
+  z-index: 2;
 }
 
 /* 

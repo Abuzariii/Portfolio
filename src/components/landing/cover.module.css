@@ -1,8 +1,76 @@
 .cover {
   width: 100%;
   min-height: 100vh;
-  background-color: #c7c8ca;
+  background-color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.main {
+  height: 75vh;
+  margin: 50px 0;
+  width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  height: 100%;
+  width: 60%;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 2rem;
+}
+.left > * {
+  color: white;
+}
+
+.right {
+  height: 100%;
+  width: 30%;
+  border-radius: 2rem;
+  /* background: url("/abuzar.jpg"); */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(0, 0, 0)
+    ),
+    url("/abuzar.jpg");
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.right > h1 {
+  position: relative;
+  top: 40%;
+  font-weight: 600;
+  color: white;
+  font-size: 5rem;
+
+  transform: rotate(35deg);
+  transform-origin: top center;
+}
+
+/* 
+  Media Queries
+*/
+@media (max-width: 900px) {
+  .main {
+    height: 150vh;
+    flex-direction: column-reverse;
+  }
+  .right {
+    height: 38%;
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+    height: 58%;
+  }
+  .right > h1 {
+    font-size: 4rem;
+    left: 5%;
+    top: 50%;
+    text-align: center;
+  }
 }

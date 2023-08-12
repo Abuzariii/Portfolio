@@ -3,9 +3,13 @@
 import classes from "./navbar.module.css";
 import { abel, gruppo, manrope } from "@/utils/fonts";
 import { Pivot as Hamburger } from "hamburger-react";
+import { useState } from "react";
 import Link from "next/link";
+import Menu from "./menu/menu";
 
 export default function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div className={classes.navbar}>
       <img src="/signGold.png" alt="khd" />
@@ -30,8 +34,9 @@ export default function Navbar() {
         </Link>
       </p>
       <div className={classes.ham}>
-        <Hamburger />
+        <Hamburger onToggle={() => setIsMenuOpen(!isMenuOpen)} />
       </div>
+      <Menu isMenuOpen={isMenuOpen} />
     </div>
   );
 }
