@@ -1,0 +1,41 @@
+.navbar * {
+  color: rgb(219, 171, 11);
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  color: rgb(219, 171, 11);
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar p > *:hover {
+  color: white;
+}
+.navbar img {
+  max-height: 100px;
+}
+.ham {
+  display: none;
+}
+
+/* 
+    Media Queries
+*/
+@media (max-width: 900px) {
+  .navbar {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 600px) {
+  .navbar > p {
+    display: none;
+  }
+  .ham {
+    display: block;
+  }
+}
