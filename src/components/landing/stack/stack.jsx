@@ -1,7 +1,7 @@
 "use client";
 
 import classes from "./stack.module.css";
-import Prog from "/public/Prog.svg";
+import Prog from "public/prog.svg";
 import Image from "next/image";
 import { manrope, goudy } from "@/utils/fonts";
 import Link from "next/link";
