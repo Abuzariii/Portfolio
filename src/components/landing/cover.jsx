@@ -1,9 +1,11 @@
 "use client";
 
-import classes from "./cover.module.css";
-import { abel, gruppo, manrope, cinzel } from "@/utils/fonts";
-import Navbar from "./navbar/navbar";
+import { goudy, manrope } from "@/utils/fonts";
+import { motion } from "framer-motion";
+import { BsArrowUpRight } from "react-icons/bs";
 import TypeWriterEffect from "react-typewriter-effect";
+import classes from "./cover.module.css";
+import Navbar from "./navbar/navbar";
 
 export default function Cover() {
   return (
@@ -11,17 +13,23 @@ export default function Cover() {
       <Navbar />
       <div className={classes.main}>
         <div className={classes.left}>
-          <h1 className={cinzel.className}>
-            A SOFTWARE ENGINEER BASED IN PAKISTAN
-          </h1>
-          <div className={abel.className}>
+          <motion.h1
+            className={goudy.className}
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeIn", delay: 0.5 }}
+          >
+            Software Engineer
+          </motion.h1>
+          <div>
             <TypeWriterEffect
               textStyle={{
                 color: "white",
                 fontSize: "1.5em",
                 letterSpacing: "1px",
                 wordSpacing: "2px",
-                fontFamily: "'Sanchez', serif",
+                fontFamily:
+                  "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif",
               }}
               startDelay={2000}
               cursorColor="#3F3D56"
@@ -34,16 +42,25 @@ export default function Cover() {
               typeSpeed={30}
             />
           </div>
+          <motion.button
+            className={manrope.className}
+            initial={{ scale: 1 }}
+            transition={{ duration: 0.1, ease: "easeIn" }}
+            whileHover={{ scale: 1.1 }}
+          >
+            DOWNLOAD RESUME
+            <BsArrowUpRight />
+          </motion.button>
         </div>
-        <div className={classes.right}>
+        <motion.div
+          className={classes.right}
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeIn", delay: 0.5 }}
+        >
           <h1 className={manrope.className}>MUHAMMAD ABUZAR</h1>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
 }
-
-// Image div with Name on top
-// Typewriter effect for about text
-// Download Resume Button
-// Maths fact

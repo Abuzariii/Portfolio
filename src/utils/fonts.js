@@ -11,8 +11,13 @@ import {
   Abel,
   Gruppo,
   Manrope,
+  Goudy_Bookletter_1911,
 } from "@next/font/google";
 
+export const goudy = Goudy_Bookletter_1911({
+  weight: "400",
+  subsets: ["latin"],
+});
 export const manrope = Manrope({
   weight: "400",
   subsets: ["latin"],

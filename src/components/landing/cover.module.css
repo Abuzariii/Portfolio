@@ -20,16 +20,44 @@
   width: 60%;
   border: 4px solid rgb(255, 255, 255);
   border-radius: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .left > * {
+  margin: 30px 10px;
   color: white;
+}
+.left > div {
+  min-height: 40px;
+}
+.left > h1 {
+  font-size: 6rem;
+}
+.left > button {
+  padding: 15px 45px;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(196, 136, 9),
+    rgb(184, 159, 104)
+  );
+  color: black;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.left > button > * {
+  margin: 0px 10px;
 }
 
 .right {
   height: 100%;
   width: 30%;
   border-radius: 2rem;
-  /* background: url("/abuzar.jpg"); */
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0) 0%,
@@ -46,7 +74,6 @@
   font-weight: 600;
   color: white;
   font-size: 5rem;
-
   transform: rotate(35deg);
   transform-origin: top center;
 }
@@ -68,7 +95,7 @@
     height: 58%;
   }
   .right > h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     left: 5%;
     top: 50%;
     text-align: center;
