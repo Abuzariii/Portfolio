@@ -1,6 +1,6 @@
 .projects {
   width: 100%;
-  min-height: 60rem;
+  min-height: 50rem;
   background-color: black;
   display: flex;
   justify-content: space-evenly;
@@ -12,37 +12,98 @@
   height: 600px;
   background-repeat: no-repeat;
   cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.projects > div > * {
+  margin: 20px 25px;
+}
+.projects h1 {
+  font-size: 3rem;
+}
+.projects button {
+  margin-bottom: 100px;
+  padding: 10px 35px;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(187, 135, 24),
+    rgb(167, 138, 78)
+  );
+  color: black;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.projects button > * {
+  font-weight: 600;
+  margin: 0px 5px;
+}
+.projects hr {
+  width: 90%;
+  border: 1px solid rgb(187, 135, 24);
 }
 
 .project1 {
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.4) -10%,
+      rgba(0, 0, 0, 0.5) -50%,
       rgba(17, 17, 17)
     ),
     url("/fifa.webp");
   background-size: 100%;
   background-position: center;
 }
+.project1:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.8)
+    ),
+    url("/fifa.webp");
+}
 .project2 {
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.4) -10%,
+      rgba(0, 0, 0, 0.6) -50%,
       rgba(17, 17, 17)
     ),
     url("/lipslove.webp");
   background-size: 100%;
   background-position: center left;
 }
+.project2:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.8)
+    ),
+    url("/lipslove.webp");
+}
 .project3 {
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.4) -10%,
+      rgba(0, 0, 0, 0.6) -50%,
       rgba(17, 17, 17)
     ),
     url("/sentiment.webp");
   background-size: 100%;
   background-position: center;
+}
+.project3:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/sentiment.webp");
 }
 
 @media (max-width: 900px) {
@@ -52,6 +113,15 @@
   }
   .projects > div {
     width: 90%;
-    height: 500px;
+    height: 600px;
+  }
+  .project1 {
+    background-position: bottom;
+  }
+  .project3 {
+    background-size: 120%;
+  }
+  .projects button {
+    margin-bottom: 50px;
   }
 }
