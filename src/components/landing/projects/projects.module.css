@@ -1,0 +1,57 @@
+.projects {
+  width: 100%;
+  min-height: 60rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+}
+.projects > div {
+  width: 430px;
+  height: 600px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.project1 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4) -10%,
+      rgba(17, 17, 17)
+    ),
+    url("/fifa.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4) -10%,
+      rgba(17, 17, 17)
+    ),
+    url("/lipslove.webp");
+  background-size: 100%;
+  background-position: center left;
+}
+.project3 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4) -10%,
+      rgba(17, 17, 17)
+    ),
+    url("/sentiment.webp");
+  background-size: 100%;
+  background-position: center;
+}
+
+@media (max-width: 900px) {
+  .projects {
+    height: 220vh;
+    flex-direction: column;
+  }
+  .projects > div {
+    width: 90%;
+    height: 500px;
+  }
+}
