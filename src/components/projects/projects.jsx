@@ -11,7 +11,7 @@ import Link from "next/link";
 export default function ProjectsPage() {
   return (
     <div className={classes.container}>
-      <h1 className={poiret.className}>My Projects</h1>
+      <h1 className={poiret.className}>My Projects 🧑‍💻 </h1>
       <div className={classes.projects}>
         <motion.div className={classes2.project1}>
           <h1 className={goudy.className}>FIFA 23 EDA and Dashboards</h1>
