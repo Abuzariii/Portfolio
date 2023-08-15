@@ -11,6 +11,7 @@
 .container > h1 {
   margin: 30px 0;
   font-size: 5rem;
+  text-align: center;
 }
 .projects {
   display: flex;

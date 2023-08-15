@@ -1,13 +1,6 @@
-import classes from "./about.module.css";
+import { abel, goudy, roboto300 } from "@/utils/fonts";
 import Footer from "../landing/footer/footer";
-import {
-  goudy,
-  manrope,
-  roboto300,
-  poiret,
-  roboto500,
-  abel,
-} from "@/utils/fonts";
+import classes from "./about.module.css";
 
 export default function About() {
   return (

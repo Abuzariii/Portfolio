@@ -1,9 +1,7 @@
+import Blogs from "@/components/blogs/blogs";
+
 export default function BlogsPage() {
-  return (
-    <div>
-      <h1>Blogs</h1>
-    </div>
-  );
+  return <Blogs />;
 }
 
 export const metadata = {

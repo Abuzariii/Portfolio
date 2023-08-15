@@ -30,7 +30,7 @@
 
 @media (max-width: 800px) {
   .about > * {
-    margin: 30px 20px;
+    margin: 30px 30px;
   }
   .about h1 {
     font-size: 3rem;

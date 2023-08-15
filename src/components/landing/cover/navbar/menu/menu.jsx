@@ -79,7 +79,7 @@ export default function Menu({ isMenuOpen }) {
         animate={isMenuOpen ? "visible" : "hidden"}
         transition={{ delay: 1.3, duration: 0.5 }}
       >
-        <Link href={"/blog"} className="link">
+        <Link href={"/blogs"} className="link">
           Blog
         </Link>
       </motion.h1>
