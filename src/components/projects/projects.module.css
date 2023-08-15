@@ -1,0 +1,71 @@
+.container {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container > h1 {
+  margin: 30px 0;
+  font-size: 5rem;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+}
+.projects > div {
+  width: 430px;
+  height: 600px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+.projects > div > * {
+  margin: 20px 25px;
+}
+.projects h1 {
+  font-size: 3rem;
+}
+.projects button {
+  margin-bottom: 100px;
+  padding: 10px 35px;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(187, 135, 24),
+    rgb(167, 138, 78)
+  );
+  color: black;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.projects button > * {
+  font-weight: 600;
+  margin: 0px 5px;
+}
+.projects hr {
+  width: 90%;
+  border: 1px solid rgb(187, 135, 24);
+}
+
+@media (max-width: 900px) {
+  .container > h1 {
+    font-size: 4rem;
+  }
+}

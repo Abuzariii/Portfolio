@@ -1,0 +1,419 @@
+.project1 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/fifa.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project1:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.8)
+    ),
+    url("/fifa.webp");
+}
+.project2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/lipslove.webp");
+  background-size: 100%;
+  background-position: center left;
+}
+.project2:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.8)
+    ),
+    url("/lipslove.webp");
+}
+.project3 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/sentiment.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project3:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/sentiment.webp");
+}
+.project4 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/sps.webp");
+  background-size: 100%;
+  background-position: top;
+}
+.project4:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/sps.webp");
+}
+.project5 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/postgres.webp");
+  background-size: 100%;
+  background-position: top;
+}
+.project5:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/postgres.webp");
+}
+.project6 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/grayscale.webp");
+  background-size: 140%;
+  background-position: center;
+}
+.project6:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/grayscale.webp");
+}
+.project7 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/taylor.webp");
+  background-size: 100%;
+  background-position: top;
+}
+.project7:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/taylor.webp");
+}
+.project8 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/covid.webp");
+  background-size: 130%;
+  background-position: center;
+}
+.project8:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/covid.webp");
+}
+.project9 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/cancer.webp");
+  background-size: 120%;
+  background-position: center;
+}
+.project9:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/cancer.webp");
+}
+.project10 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/profile.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project10:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/profile.webp");
+}
+
+.project12 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/meteor.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project12:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/meteor.webp");
+}
+.project13 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/netflix.webp");
+  background-size: 100%;
+  background-position: top;
+}
+.project13:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/netflix.webp");
+}
+.project14 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/lowlight.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project14:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/lowlight.webp");
+}
+.project15 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 10%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/gpt.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project15:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/gpt.webp");
+}
+.project16 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/speech.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project16:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/speech.webp");
+}
+.project17 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/movies.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project17:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/movies.webp");
+}
+.project18 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/face.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project18:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/face.webp");
+}
+
+.project19 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/super.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project19:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/super.webp");
+}
+
+.project20 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/finger.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project20:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/finger.webp");
+}
+.project21 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/tadbeer.webp");
+  background-size: 100%;
+  background-position: top;
+}
+.project21:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/tadbeer.webp");
+}
+
+.project22 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/yolo.webp");
+  background-size: 180%;
+  background-position: center;
+}
+.project22:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/yolo.webp");
+}
+
+.project23 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) -50%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/olx.webp");
+  background-size: 100%;
+  background-position: top;
+}
+.project23:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/olx.webp");
+}
+.project24 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/price.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project24:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/price.webp");
+}
