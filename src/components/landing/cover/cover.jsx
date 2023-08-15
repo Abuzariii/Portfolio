@@ -47,15 +47,21 @@ export default function Cover() {
               typeSpeed={30}
             />
           </div>
-          <motion.button
+          <a
+            href="/resume.pdf"
             className={manrope.className}
-            initial={{ scale: 1 }}
-            transition={{ duration: 0.1, ease: "easeOut" }}
-            whileHover={{ scale: 1.05 }}
+            download="resume.pdf"
           >
-            DOWNLOAD RESUME
-            <BsArrowUpRight />
-          </motion.button>
+            <motion.button
+              className={manrope.className}
+              initial={{ scale: 1 }}
+              transition={{ duration: 0.1, ease: "easeOut" }}
+              whileHover={{ scale: 1.05 }}
+            >
+              DOWNLOAD RESUME
+              <BsArrowUpRight />
+            </motion.button>
+          </a>
         </div>
         <motion.div
           className={classes.right}

@@ -37,7 +37,10 @@
 .left > h1 {
   font-size: 6rem;
 }
-.left > button {
+.left a {
+  text-decoration: none;
+}
+.left button {
   padding: 15px 45px;
   border: none;
   background-image: linear-gradient(
@@ -51,7 +54,7 @@
   align-items: center;
   cursor: pointer;
 }
-.left > button > * {
+.left button > * {
   margin: 0px 10px;
 }
 

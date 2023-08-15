@@ -45,14 +45,12 @@
     rgb(163, 129, 54)
   );
   color: black;
-  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 }
 .right > button > * {
-  font-weight: 600;
   margin: 0px 5px;
 }
 .arrows {
