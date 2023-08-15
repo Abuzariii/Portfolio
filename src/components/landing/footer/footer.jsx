@@ -54,11 +54,6 @@ export default function Footer() {
                 Blogs
               </Link>
             </p>
-            <p className={roboto300.className}>
-              <Link className="link" href={"/contact"}>
-                Contact
-              </Link>
-            </p>
           </div>
           <div className={classes.contacts}>
             <h3 className={roboto300.className}>Contacts</h3>
