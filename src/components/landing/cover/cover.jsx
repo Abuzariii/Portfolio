@@ -64,6 +64,7 @@ export default function Cover() {
           transition={{ duration: 0.6, ease: "easeIn" }}
         >
           <h1 className={manrope.className}>MUHAMMAD ABUZAR</h1>
+          <h2 className={manrope.className}>MUHAMMAD ABUZAR</h2>
         </motion.div>
       </div>
     </div>

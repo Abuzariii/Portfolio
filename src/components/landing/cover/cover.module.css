@@ -78,6 +78,17 @@
   transform: rotate(35deg);
   transform-origin: top center;
 }
+.right > h2 {
+  position: relative;
+  top: 10%;
+  right: 20%;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255, 0.1);
+  font-size: 5rem;
+  transform: rotate(-25deg);
+  transform-origin: top center;
+}
 
 /* 
   Media Queries
@@ -106,5 +117,12 @@
     left: 10%;
     top: 50%;
     text-align: center;
+  }
+  .right > h2 {
+    font-size: 3rem;
+    top: 10%;
+    right: 10%;
+    font-weight: 600;
+    letter-spacing: 2px;
   }
 }
