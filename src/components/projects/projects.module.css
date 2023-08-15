@@ -68,4 +68,8 @@
   .container > h1 {
     font-size: 4rem;
   }
+  .projects > div {
+    width: 95%;
+    height: 560px;
+  }
 }
