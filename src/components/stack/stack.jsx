@@ -21,12 +21,12 @@ import { abel, poiret } from "@/utils/fonts";
 import React, { useState, useEffect } from "react";
 
 export default function Stack() {
-  const [iconSize, setIconSize] = useState(window.innerWidth < 600 ? 50 : 100);
+  const [iconSize, setIconSize] = useState(100);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
       const handleWindowSizeChange = () => {
-        setIconSize(window.innerWidth < 600 ? 50 : 100);
+        setIconSize(window.innerWidth < 600 ? 60 : 100);
       };
 
       window.addEventListener("resize", handleWindowSizeChange);
