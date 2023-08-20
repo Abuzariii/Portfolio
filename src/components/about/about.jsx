@@ -1,10 +1,12 @@
 import { abel, goudy, roboto300 } from "@/utils/fonts";
 import Footer from "../landing/footer/footer";
 import classes from "./about.module.css";
+import Navbar from "../landing/cover/navbar/navbar";
 
 export default function About() {
   return (
     <div className={classes.container}>
+      <Navbar />
       <div className={classes.about}>
         <div>
           <h1 className={goudy.className}>

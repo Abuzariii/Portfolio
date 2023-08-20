@@ -19,6 +19,7 @@ import { TbBrandNextjs, TbBrandVscode } from "react-icons/tb";
 import { SiTensorflow, SiPowerbi, SiDatabricks } from "react-icons/si";
 import { abel, poiret } from "@/utils/fonts";
 import React, { useState, useEffect } from "react";
+import Navbar from "../landing/cover/navbar/navbar";
 
 export default function Stack() {
   const [iconSize, setIconSize] = useState(100);
@@ -39,6 +40,7 @@ export default function Stack() {
 
   return (
     <div className={classes.container}>
+      <Navbar />
       <h1 className={poiret.className}>My Tech Stack 🦾</h1>
       <div className={classes.stack}>
         <div>

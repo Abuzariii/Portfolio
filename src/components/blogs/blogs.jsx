@@ -2,10 +2,12 @@ import { abel } from "@/utils/fonts";
 import Link from "next/link";
 import Footer from "../landing/footer/footer";
 import classes from "./blogs.module.css";
+import Navbar from "../landing/cover/navbar/navbar";
 
 export default function Blogs() {
   return (
     <div className={classes.container}>
+      <Navbar />
       <div className={classes.about}>
         <h1 className={abel.className}>
           <Link

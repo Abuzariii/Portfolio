@@ -6,11 +6,13 @@ import Footer from "../landing/footer/footer";
 import { motion } from "framer-motion";
 import { goudy, manrope, roboto300, poiret } from "@/utils/fonts";
 import { BsArrowUpRight } from "react-icons/bs";
+import Navbar from "../landing/cover/navbar/navbar";
 import Link from "next/link";
 
 export default function ProjectsPage() {
   return (
     <div className={classes.container}>
+      <Navbar />
       <h1 className={poiret.className}>My Projects 🧑‍💻 </h1>
       <div className={classes.projects}>
         <motion.div className={classes2.project1}>
