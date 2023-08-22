@@ -417,3 +417,57 @@
     ),
     url("/projects/price.webp");
 }
+.project25 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/graph.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project25:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/graph.webp");
+}
+.project26 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/neon.webp");
+  background-size: 140%;
+  background-position: center;
+}
+.project26:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/neon.webp");
+}
+.project27 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/chat.webp");
+  background-size: 100%;
+  background-position: center;
+}
+.project27:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/chat.webp");
+}

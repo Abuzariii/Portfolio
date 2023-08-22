@@ -583,6 +583,80 @@ export default function ProjectsPage() {
             </motion.button>
           </Link>
         </motion.div>
+        <motion.div className={classes2.project25}>
+          <h1 className={goudy.className}>FIFA 23 GraphQL API</h1>
+          <hr />
+          <p className={roboto300.className}>
+            Exposed entire FIFA 23 player's dataset using GraphQL
+          </p>
+
+          <Link
+            href={"https://github.com/Abuzariii/FIFA-23-GraphQL-API"}
+            target="_blank"
+            className="link"
+          >
+            <motion.button
+              initial={{ scale: 1 }}
+              transition={{ duration: 0.1, ease: "linear" }}
+              whileHover={{ scale: 1.1 }}
+              className={manrope.className}
+            >
+              Github
+              <BsArrowUpRight />
+            </motion.button>
+          </Link>
+        </motion.div>
+        <motion.div className={classes2.project26}>
+          <h1 className={goudy.className}>Neon, serverless Postgres</h1>
+          <hr />
+          <p className={roboto300.className}>
+            CRUD app built with Nodejs, utilizing Neon DB, a server-less
+            Postgres with a generous free tier.
+          </p>
+
+          <Link
+            href={
+              "https://github.com/Abuzariii/Neon-Serverless-Postgres-Nodejs"
+            }
+            target="_blank"
+            className="link"
+          >
+            <motion.button
+              initial={{ scale: 1 }}
+              transition={{ duration: 0.1, ease: "linear" }}
+              whileHover={{ scale: 1.1 }}
+              className={manrope.className}
+            >
+              Github
+              <BsArrowUpRight />
+            </motion.button>
+          </Link>
+        </motion.div>
+        <motion.div className={classes2.project27}>
+          <h1 className={goudy.className}>Chat App, Socket.io</h1>
+          <hr />
+          <p className={roboto300.className}>
+            A real time chat web application built with socket.io and Nextjs,
+            users can join rooms with room id and chat with each other. Supports
+            any number of users in a single room.
+          </p>
+
+          <Link
+            href={"https://github.com/Abuzariii/Real-Time-Chat-App-Socket.io"}
+            target="_blank"
+            className="link"
+          >
+            <motion.button
+              initial={{ scale: 1 }}
+              transition={{ duration: 0.1, ease: "linear" }}
+              whileHover={{ scale: 1.1 }}
+              className={manrope.className}
+            >
+              Github
+              <BsArrowUpRight />
+            </motion.button>
+          </Link>
+        </motion.div>
       </div>
       <Footer />
     </div>
