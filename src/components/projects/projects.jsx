@@ -93,12 +93,12 @@ export default function ProjectsPage() {
           <h1 className={goudy.className}>IUB Science Promotion Society</h1>
           <hr />
           <p className={roboto300.className}>
-            Live webiste of IUB Science Promotion Society built with Nextjs and
-            MongoDB for articles.
+            Live webiste of IUB Science Promotion Society built with Nextjs
+            pages router.
           </p>
 
           <Link
-            href={"https://github.com/Abuzariii/Science-Promotion-Society"}
+            href={"https://github.com/Abuzariii/IUB-Science-Promotion-Society"}
             target="_blank"
             className="link"
           >
