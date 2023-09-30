@@ -1,7 +1,6 @@
 "use client";
 
 import { goudy, manrope } from "@/utils/fonts";
-import { motion } from "framer-motion";
 import { BsArrowUpRight } from "react-icons/bs";
 import classes from "./cover.module.css";
 import Navbar from "./navbar/navbar";
@@ -18,14 +17,7 @@ export default function Cover() {
       <Navbar />
       <div className={classes.main}>
         <div className={classes.left}>
-          <motion.h1
-            className={goudy.className}
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeIn" }}
-          >
-            Software Engineer
-          </motion.h1>
+          <h1 className={goudy.className}>Software Engineer</h1>
           <div>
             <TypeWriterEffect
               textStyle={{
@@ -52,26 +44,15 @@ export default function Cover() {
             className={manrope.className}
             download="resume.pdf"
           >
-            <motion.button
-              className={manrope.className}
-              initial={{ scale: 1 }}
-              transition={{ duration: 0.1, ease: "easeOut" }}
-              whileHover={{ scale: 1.05 }}
-            >
+            <button className={manrope.className}>
               DOWNLOAD RESUME
               <BsArrowUpRight />
-            </motion.button>
+            </button>
           </a>
         </div>
-        <motion.div
-          className={classes.right}
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeIn" }}
-        >
+        <div className={classes.right}>
           <h1 className={manrope.className}>MUHAMMAD ABUZAR</h1>
-          <h2 className={manrope.className}>MUHAMMAD ABUZAR</h2>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

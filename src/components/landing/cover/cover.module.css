@@ -64,33 +64,21 @@
   border-radius: 2rem;
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 40%,
       rgb(0, 0, 0)
     ),
-    url("/me3.jpg");
+    url("/abuzar-body.JPG");
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
 }
 .right > h1 {
   position: relative;
-  top: 40%;
+  top: 70%;
+  left: 5%;
   font-weight: 600;
   color: white;
-  font-size: 5rem;
-  transform: rotate(35deg);
-  transform-origin: top center;
-}
-.right > h2 {
-  position: relative;
-  top: 10%;
-  right: 20%;
-  font-weight: 600;
-  letter-spacing: 2px;
-  color: rgb(255, 255, 255, 0.1);
-  font-size: 5rem;
-  transform: rotate(-25deg);
-  transform-origin: top center;
+  font-size: 4rem;
 }
 
 /* 
@@ -116,16 +104,6 @@
     font-size: 5rem;
   }
   .right > h1 {
-    font-size: 4rem;
-    left: 10%;
-    top: 50%;
-    text-align: center;
-  }
-  .right > h2 {
     font-size: 3rem;
-    top: 10%;
-    right: 10%;
-    font-weight: 600;
-    letter-spacing: 2px;
   }
 }
