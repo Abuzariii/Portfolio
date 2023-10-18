@@ -31,30 +31,43 @@ export default function About() {
           <div className={classes.line}></div>
           <h2 className={abel.className}>Bytewise Limited (Mar 23-Jul 23)</h2>
           <p className={roboto300.className}>(Data Engineering Internship)</p>
+
+          <div className={classes.line}></div>
+          <h2 className={abel.className}>
+            IUB Science Promotion Society (Jan 21-Dec 23)
+          </h2>
+          <p className={roboto300.className}>(General Secretary)</p>
+
+          <div className={classes.line}></div>
+          <h2 className={abel.className}>
+            Google Developers Student Club IUB (Sep 23-Current)
+          </h2>
+          <p className={roboto300.className}>(Web Development Lead)</p>
         </div>
+
         <div>
           <h1 className={goudy.className}>Interests and Side Hobbies</h1>
           <h2 className={abel.className}>European Football</h2>
           <p className={roboto300.className}>
-            (Hardcore FC Barcelone and Messi fan)
+            ( Hardcore FC Barcelone and Messi fan )
           </p>
           <div className={classes.line}></div>
           <h2 className={abel.className}>Indian History</h2>
           <p className={roboto300.className}>
-            (I am interested in the general history of the region, specially pre
-            vdeic ages)
+            ( I am interested in the general history of the region, specially
+            pre vdeic ages )
           </p>
           <div className={classes.line}></div>
-          <h2 className={abel.className}>Anthropplogy</h2>
+          <h2 className={abel.className}>Anthroplogy</h2>
           <p className={roboto300.className}>
-            (Please watch Stephen Milo on Youtube I beg you )
+            ( I have a deep interest in the history and evolution of hominids )
           </p>
           <div className={classes.line}></div>
           <h2 className={abel.className}>Singularity and AI</h2>
           <p className={roboto300.className}>
-            (My motivation to break into tech was artifical intelligence
+            ( My motivation to break into tech was artifical intelligence
             systems, specially those that can out compete humans in day to day
-            tasks)
+            tasks )
           </p>
         </div>
       </div>
