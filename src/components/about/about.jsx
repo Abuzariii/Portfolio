@@ -34,7 +34,7 @@ export default function About() {
 
           <div className={classes.line}></div>
           <h2 className={abel.className}>
-            IUB Science Promotion Society (Jan 21-Dec 23)
+            IUB Science Promotion Society (Jan 22-Dec 23)
           </h2>
           <p className={roboto300.className}>(General Secretary)</p>
 
