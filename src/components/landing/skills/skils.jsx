@@ -13,44 +13,43 @@ export default function Skills() {
         <h1 className={manrope.className}>Web Development</h1>
         <CgWebsite size={80} />
         <p className={roboto400.className}>
-          I started my web development journey in August 2021 and since then I
-          have worked extensively with the MERN stack. I additionally use Nextjs
-          to make responsive frontends. I can build REST APIs in both
-          microservices and monolith architecture.
+          With over two years of experience in Web Development, I can build
+          highly responsive web applications and APIs. I use MERN stack along
+          with Nextjs, PostgreSQL, GraphQL, Figma, Webflow and ORMs like
+          Mongoose and Sequelize.
         </p>
       </div>
       <div>
         <h1 className={manrope.className}>Data Sciences</h1>
         <SiAlwaysdata size={80} />
         <p className={roboto400.className}>
-          I got into Data Sciences the same day I started my web journey, can
-          analyze data, clean and preprocess it for modelling, use Matplotlib
-          and Seaborn tovisualize it and much much more. My primary DS stack is
-          Python.
+          I am a highly skilled Data Scientist with a good understanding of Data
+          Analysis, Preprocessing and Visualization. I use Python to make
+          Exploratory Data Analysis Reports. I can also build ETL pipelines on
+          AWS having interned at Bytewise Limited as a Data Engineer.
         </p>
       </div>
       <div>
         <h1 className={manrope.className}>Machine/Deep Learning</h1>
         <GiBrain size={80} />
         <p className={roboto400.className}>
-          On the Machine Learning and Deep Learning side I can make any sort of
-          classification or regression models for data using Scikit Learn or
-          Deep Learning models using Tensorflow. I have worked extensively in
-          the domains of Image Classification, Object Localization, Sentiment
-          Analysis and Pose Estimation using some state of the art Deep Learning
-          Models. I have good understanding of CNNs, RNNs, LLMs and GPTs.
+          For ML and DL tasks I primarily use PyTorch, Tensorflow and Scikit
+          Learn. Having worked as a research assistant for Masters and PhD
+          students, I can train highly accurate models for pretty much any sort
+          of NLP or Computer Vision use cases ranging from classification,
+          regression, sentiment analysis, object or text detection and
+          recognition.
         </p>
       </div>
       <div>
         <h1 className={manrope.className}>Business Intelligence</h1>
         <SiPowerbi size={80} />
         <p className={roboto400.className}>
-          I have a knack for extracting meaningful insights from data and make
-          sense of it. Primarily I use Pandas for data preprocessing and then
-          Power BI to make beautiful dashboards. Though I mainly use Power BI's
-          integrated AI based QnA feature, I still have very good understanding
-          of DAX expressions and can bring any sort of messy data to life and
-          help decision makers make intelligent decisions.
+          I love extracting meaningful insights from data. I use Pandas to
+          preprocess data and then Power BI to make dashboards and reports to
+          help decision makers. I have a strong grip on Power BI's DAX
+          expression and have also used Google's Looker for Business
+          Intelligence.
         </p>
       </div>
     </div>

@@ -14,7 +14,7 @@ export default function About() {
           </h1>
           <h2 className={abel.className}>
             I am a software engineer based in Bahawalpur Pakistan. I am a full
-            stack web developer and a data scientist.
+            stack web developer, data scientist and deep learning practitioner.
           </h2>
         </div>
         <div>
@@ -34,9 +34,13 @@ export default function About() {
 
           <div className={classes.line}></div>
           <h2 className={abel.className}>
-            IUB Science Promotion Society (Jan 22-Dec 23)
+            IUB Science Promotion Society (Dec 21-Dec 23)
           </h2>
           <p className={roboto300.className}>(General Secretary)</p>
+
+          <div className={classes.line}></div>
+          <h2 className={abel.className}>TechLancerr Summit (Oct 23-Dec 23)</h2>
+          <p className={roboto300.className}>(Director Web & IT)</p>
 
           <div className={classes.line}></div>
           <h2 className={abel.className}>
@@ -52,20 +56,21 @@ export default function About() {
             ( Hardcore FC Barcelone and Messi fan )
           </p>
           <div className={classes.line}></div>
-          <h2 className={abel.className}>Indian History</h2>
+          <h2 className={abel.className}>Indian History and Prehistory</h2>
           <p className={roboto300.className}>
-            ( I am interested in the general history of the region, specially
-            pre vdeic ages )
+            ( I regularly read up on the political, social, religious and
+            cultural history of the region )
           </p>
           <div className={classes.line}></div>
           <h2 className={abel.className}>Anthroplogy</h2>
           <p className={roboto300.className}>
-            ( I have a deep interest in the history and evolution of hominids )
+            ( I have a deep interest in the evolution of not just hominids but
+            also other species and I love to identify myself as a nature lover )
           </p>
           <div className={classes.line}></div>
           <h2 className={abel.className}>Singularity and AI</h2>
           <p className={roboto300.className}>
-            ( My motivation to break into tech was artifical intelligence
+            ( My motivation to break into tech was artifically intelligent
             systems, specially those that can out compete humans in day to day
             tasks )
           </p>

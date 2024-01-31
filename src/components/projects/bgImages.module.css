@@ -438,7 +438,7 @@
 .project26 {
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.1) -30%,
+      rgba(0, 0, 0, 0.4) -30%,
       rgba(17, 17, 17)
     ),
     url("/projects/neon.webp");
@@ -470,4 +470,42 @@
       rgba(17, 17, 17, 0.9)
     ),
     url("/projects/chat.webp");
+}
+
+.project28 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/techlancerr.webp");
+  background-size: 100%;
+  background-position: top;
+}
+.project28:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/techlancerr.webp");
+}
+
+.project29 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) -30%,
+      rgba(17, 17, 17)
+    ),
+    url("/projects/gdsc.webp");
+  background-size: 100%;
+  background-position: top;
+}
+.project29:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8) -10%,
+      rgba(17, 17, 17, 0.9)
+    ),
+    url("/projects/gdsc.webp");
 }

@@ -40,15 +40,16 @@ export default function ProjectsPage() {
             </motion.button>
           </Link>
         </motion.div>
-        <motion.div className={classes2.project2}>
-          <h1 className={goudy.className}>Lips Love -- Makeup Website</h1>
+
+        <motion.div className={classes2.project28}>
+          <h1 className={goudy.className}>TechLancerr</h1>
           <hr />
           <p className={roboto300.className}>
-            A full stack Makeup e-commerce store built using MERN stack and
-            Nextjs 13
+            Website for the TechLancerr summit held at the Islamia University of
+            Bahawalpur, built in Nextjs.
           </p>
           <Link
-            href={"https://github.com/Abuzariii/Lips-Love----Makeup-Webiste"}
+            href={"https://github.com/Abuzariii/TechLancerr"}
             target="_blank"
             className="link"
           >
@@ -63,6 +64,7 @@ export default function ProjectsPage() {
             </motion.button>
           </Link>
         </motion.div>
+
         <motion.div className={classes2.project3}>
           <h1 className={goudy.className}>Twitter (X) Sentiment Analysis</h1>
           <hr />
@@ -89,6 +91,55 @@ export default function ProjectsPage() {
             </motion.button>
           </Link>
         </motion.div>
+
+        <motion.div className={classes2.project2}>
+          <h1 className={goudy.className}>Lips Love -- Makeup Website</h1>
+          <hr />
+          <p className={roboto300.className}>
+            A full stack Makeup e-commerce store built using MERN stack and
+            Nextjs 13
+          </p>
+          <Link
+            href={"https://github.com/Abuzariii/Lips-Love----Makeup-Webiste"}
+            target="_blank"
+            className="link"
+          >
+            <motion.button
+              initial={{ scale: 1 }}
+              transition={{ duration: 0.1, ease: "linear" }}
+              whileHover={{ scale: 1.1 }}
+              className={manrope.className}
+            >
+              Github
+              <BsArrowUpRight />
+            </motion.button>
+          </Link>
+        </motion.div>
+
+        <motion.div className={classes2.project29}>
+          <h1 className={goudy.className}>GDSC IUB</h1>
+          <hr />
+          <p className={roboto300.className}>
+            Website for the Google Developer Student Club at the Islamia
+            University of Bahwalpur
+          </p>
+          <Link
+            href={"https://github.com/Abuzariii/gdsciub"}
+            target="_blank"
+            className="link"
+          >
+            <motion.button
+              initial={{ scale: 1 }}
+              transition={{ duration: 0.1, ease: "linear" }}
+              whileHover={{ scale: 1.1 }}
+              className={manrope.className}
+            >
+              Github
+              <BsArrowUpRight />
+            </motion.button>
+          </Link>
+        </motion.div>
+
         <motion.div className={classes2.project4}>
           <h1 className={goudy.className}>IUB Science Promotion Society</h1>
           <hr />

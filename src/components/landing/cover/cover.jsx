@@ -33,7 +33,7 @@ export default function Cover() {
               multiText={[
                 "From Data to Web, I do it all...",
                 "Join hands and create an impact",
-                "3 languages, 8 frameworks and countless libraries...",
+                "I can build UIs, APIs, Web Apps, Mobile Apps, AI models and much much more",
               ]}
               multiTextDelay={1000}
               typeSpeed={30}
