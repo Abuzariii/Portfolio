@@ -39,6 +39,7 @@
 }
 .left > h1 {
   font-size: 6rem;
+  text-align: center;
 }
 .left a {
   text-decoration: none;
